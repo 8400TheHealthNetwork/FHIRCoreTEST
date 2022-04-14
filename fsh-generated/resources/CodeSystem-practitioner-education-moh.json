@@ -1,0 +1,1199 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "PractitionerEducationMoh",
+  "id": "practitioner-education-moh",
+  "title": "Ministry of Health practitioner-education codes",
+  "description": "Codes for practitioner-education according to Israeli MoH",
+  "version": "0.7.0",
+  "url": "http://fhir.health.gov.il/cs/practitioner-education-moh",
+  "concept": [
+    {
+      "code": "1",
+      "display": "לימודי תעודה - מוסמך",
+      "definition": "לימודי תעודה - מוסמך",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "מעשיות",
+      "definition": "מעשיות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "מעשי תיכוני",
+      "definition": "מעשי תיכוני",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "מטפלות",
+      "definition": "מטפלות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "display": "מיילדות",
+      "definition": "מיילדות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "display": "סיעוד חדר ניתוח א. מוסמכות",
+      "definition": "סיעוד חדר ניתוח א. מוסמכות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "display": "בריאות הציבור",
+      "definition": "בריאות הציבור",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "8",
+      "display": "פסיכיאטריה",
+      "definition": "פסיכיאטריה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "display": "סיעוד בבריאות תעסוקתית",
+      "definition": "סיעוד בבריאות תעסוקתית",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "display": "סיעוד מתקדם",
+      "definition": "סיעוד מתקדם",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "display": "טיפול נמרץ כללי",
+      "definition": "טיפול נמרץ כללי",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "display": "בריאות הקהילה",
+      "definition": "בריאות הקהילה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "display": "גריאטרייה",
+      "definition": "גריאטרייה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "display": "טיפול נמרץ ילדים ופגים (פיתי)",
+      "definition": "טיפול נמרץ ילדים ופגים (פיתי)",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "display": "טיפול נמרץ לב",
+      "definition": "טיפול נמרץ לב",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "display": "טיפול נמרץ משולב (כללי)",
+      "definition": "טיפול נמרץ משולב (כללי)",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "display": "סיעוד חדר ניתוח א. מעשיות",
+      "definition": "סיעוד חדר ניתוח א. מעשיות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "display": "אונקולוגיה",
+      "definition": "אונקולוגיה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "display": "נפרולוגיה",
+      "definition": "נפרולוגיה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "display": "מינהל בסיעוד",
+      "definition": "מינהל בסיעוד",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "display": "חובשי צה'ל",
+      "definition": "חובשי צה'ל",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "display": "הסבת מעשיות לסמכות",
+      "definition": "הסבת מעשיות לסמכות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "display": "הסבת מעשיות עולות",
+      "definition": "הסבת מעשיות עולות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "24",
+      "display": "הסבת פראמדיקים",
+      "definition": "הסבת פראמדיקים",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "25",
+      "display": "מוסמך אקדמאי",
+      "definition": "מוסמך אקדמאי",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "display": "הסבת אקדמאים",
+      "definition": "הסבת אקדמאים",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "27",
+      "display": "הסבה לביוטכנולוגים",
+      "definition": "הסבה לביוטכנולוגים",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "display": "אקדמי- הסבת אקדמיים",
+      "definition": "אקדמי- הסבת אקדמיים",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "29",
+      "display": "הוראה והדרכה",
+      "definition": "הוראה והדרכה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "30",
+      "display": "אוריינטציה למיילדות",
+      "definition": "אוריינטציה למיילדות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "display": "התנסות קלינית",
+      "definition": "התנסות קלינית",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "display": "התנסות עיונית",
+      "definition": "התנסות עיונית",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "display": "התנסות קלינית ועיונית",
+      "definition": "התנסות קלינית ועיונית",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "42",
+      "display": "בעלות משפחה מעשיות",
+      "definition": "בעלות משפחה מעשיות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "43",
+      "display": "אקדמיה 4 שנתי",
+      "definition": "אקדמיה 4 שנתי",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "44",
+      "display": "הסבת אקדמאים לתואר אחות מוסמכת",
+      "definition": "הסבת אקדמאים לתואר אחות מוסמכת",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "45",
+      "display": "הסבת אקדמאים לתואר ראשון בסעוד",
+      "definition": "הסבת אקדמאים לתואר ראשון בסעוד",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "46",
+      "display": "לימודי תעודה",
+      "definition": "לימודי תעודה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "47",
+      "display": "אקדמיה חיילות",
+      "definition": "אקדמיה חיילות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "48",
+      "display": "ייעוץ פעילות גופנית",
+      "definition": "ייעוץ פעילות גופנית",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "49",
+      "display": "ייעוץ שינה",
+      "definition": "ייעוץ שינה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "55",
+      "display": "מעשיות חדשות 2015",
+      "definition": "מעשיות חדשות 2015",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "56",
+      "display": "סיעוד התלמיד כהכנה לברצ\"ב",
+      "definition": "סיעוד התלמיד כהכנה לברצ\"ב",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "57",
+      "display": "מעשיות חדשות 2017",
+      "definition": "מעשיות חדשות 2017",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "61",
+      "display": "קביעת מעמד - מוסמכות",
+      "definition": "קביעת מעמד - מוסמכות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "62",
+      "display": "קביעת מעמד - מעשיות",
+      "definition": "קביעת מעמד - מעשיות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "65",
+      "display": "הדרכה קלינית",
+      "definition": "הדרכה קלינית",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "66",
+      "display": "הסבת רופאים",
+      "definition": "הסבת רופאים",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "4"
+        }
+      ]
+    },
+    {
+      "code": "67",
+      "display": "רפואה דחופה",
+      "definition": "רפואה דחופה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "68",
+      "display": "שיקום",
+      "definition": "שיקום",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "70",
+      "display": "מניעת זיהומים",
+      "definition": "מניעת זיהומים",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "71",
+      "display": "טיפול נמרץ פגים",
+      "definition": "טיפול נמרץ פגים",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "72",
+      "display": "טיפול נמרץ ילדים",
+      "definition": "טיפול נמרץ ילדים",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "73",
+      "display": "רפואה ראשונית",
+      "definition": "רפואה ראשונית",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "75",
+      "display": "רפואה מונעת",
+      "definition": "רפואה מונעת",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "76",
+      "display": "סוכרת",
+      "definition": "סוכרת",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "77",
+      "display": "ניהול הטיפול באי ספיקת לב",
+      "definition": "ניהול הטיפול באי ספיקת לב",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "78",
+      "display": "על בסיסי",
+      "definition": "על בסיסי",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "79",
+      "display": "הסבת עולים",
+      "definition": "הסבת עולים",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "81",
+      "display": "אקוטי",
+      "definition": "אקוטי",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "82",
+      "display": "חטיבה במניעה",
+      "definition": "חטיבה במניעה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "83",
+      "display": "חטיבה כרונית",
+      "definition": "חטיבה כרונית",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "84",
+      "display": "מזכירות",
+      "definition": "מזכירות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "99",
+      "display": "ישן",
+      "definition": "ישן",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "100",
+      "display": "חדר ניתוח",
+      "definition": "חדר ניתוח",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "103",
+      "display": "חטיבה אקוטית",
+      "definition": "חטיבה אקוטית",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "104",
+      "display": "חטיבה אקוטית וכרונית",
+      "definition": "חטיבה אקוטית וכרונית",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "105",
+      "display": "הסבת פראמדיקים",
+      "definition": "הסבת פראמדיקים",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "106",
+      "display": "גריאטריה",
+      "definition": "גריאטריה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "107",
+      "display": "יועצת הנקה",
+      "definition": "יועצת הנקה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "108",
+      "display": "מדיניות ומינהל בסיעוד",
+      "definition": "מדיניות ומינהל בסיעוד",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "109",
+      "display": "רישום מרשמי המשך על ידי אחות",
+      "definition": "רישום מרשמי המשך על ידי אחות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "110",
+      "display": "פסיכותרפיה",
+      "definition": "פסיכותרפיה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "111",
+      "display": "פסיכותרפיה בשיטת CBT",
+      "definition": "פסיכותרפיה בשיטת CBT",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "112",
+      "display": "מבחן ממיין",
+      "definition": "מבחן ממיין",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "113",
+      "display": "ייעוץ לפעילות גופנית",
+      "definition": "ייעוץ לפעילות גופנית",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "114",
+      "display": "ייעוץ שינה",
+      "definition": "ייעוץ שינה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "115",
+      "display": "טיפול בפצעים וסטומה",
+      "definition": "טיפול בפצעים וסטומה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "116",
+      "display": "גסטרואנטרולוגיה",
+      "definition": "גסטרואנטרולוגיה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "117",
+      "display": "שבץ מוחי",
+      "definition": "שבץ מוחי",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "118",
+      "display": "אי ספיקת לב",
+      "definition": "אי ספיקת לב",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "119",
+      "display": "פוריות",
+      "definition": "פוריות",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "120",
+      "display": "רפואה ראשונית ורישום מרשמי המשך",
+      "definition": "רפואה ראשונית ורישום מרשמי המשך",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "1000",
+      "display": "לא ידוע",
+      "definition": "לא ידוע",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "NULL"
+        }
+      ]
+    },
+    {
+      "code": "1001",
+      "display": "מומחיות סוכרת",
+      "definition": "מומחיות סוכרת",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "1002",
+      "display": "מומחיות גריאטריה",
+      "definition": "מומחיות גריאטריה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "1003",
+      "display": "מומחיות טיפול תומך",
+      "definition": "מומחיות טיפול תומך",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "1004",
+      "display": "טיפול בפצעים וסטומה",
+      "definition": "טיפול בפצעים וסטומה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "1005",
+      "display": "רפואה ראשונית צבאית-רפואה ראשונית",
+      "definition": "רפואה ראשונית צבאית-רפואה ראשונית",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "1006",
+      "display": "מודולת השלמה בייעוץ הנקה",
+      "definition": "מודולת השלמה בייעוץ הנקה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "1007",
+      "display": "מודולת השלמה בשבץ מוחי",
+      "definition": "מודולת השלמה בשבץ מוחי",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "1008",
+      "display": "חטיבה משותפת אקוטית מבוגרים",
+      "definition": "חטיבה משותפת אקוטית מבוגרים",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "1009",
+      "display": "חטיבה משותפת אקוטית ילדים",
+      "definition": "חטיבה משותפת אקוטית ילדים",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "1010",
+      "display": "חטיבה משותפת אקוטית כרונית",
+      "definition": "חטיבה משותפת אקוטית כרונית",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "1011",
+      "display": "חטיבה משותפת כרונית",
+      "definition": "חטיבה משותפת כרונית",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "1012",
+      "display": "מניעה וקידום בריאות וייעוץ הנקה",
+      "definition": "מניעה וקידום בריאות וייעוץ הנקה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "1013",
+      "display": "רפואה ראשונית - מאוחדת ",
+      "definition": "רפואה ראשונית - מאוחדת ",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "1014",
+      "display": "רפואה ראשונית צבאית - רפואה ראשונית ורישום מרשמי המשך",
+      "definition": "רפואה ראשונית צבאית - רפואה ראשונית ורישום מרשמי המשך",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "44197",
+      "display": "B.A.",
+      "definition": "B.A.",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "1"
+        }
+      ]
+    },
+    {
+      "code": "44228",
+      "display": "M.A.",
+      "definition": "M.A.",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "2"
+        }
+      ]
+    },
+    {
+      "code": "44256",
+      "display": "(Ph.D)",
+      "definition": "(Ph.D)",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "3"
+        }
+      ]
+    },
+    {
+      "code": "44287",
+      "display": "(MD)",
+      "definition": "(MD)",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "-999"
+        }
+      ]
+    },
+    {
+      "code": "44317",
+      "display": "Psy.D",
+      "definition": "Psy.D",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "-999"
+        }
+      ]
+    },
+    {
+      "code": "44348",
+      "display": "(DMD)",
+      "definition": "(DMD)",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "-999"
+        }
+      ]
+    },
+    {
+      "code": "44378",
+      "display": "(D.Sc)",
+      "definition": "(D.Sc)",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "-999"
+        }
+      ]
+    },
+    {
+      "code": "44409",
+      "display": "שנת השלמה",
+      "definition": "שנת השלמה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "8"
+        }
+      ]
+    },
+    {
+      "code": "44440",
+      "display": "תעודה",
+      "definition": "תעודה",
+      "property": [
+        {
+          "code": "education-type",
+          "valueCode": "9"
+        }
+      ]
+    }
+  ],
+  "language": "he-IL",
+  "property": [
+    {
+      "code": "education-type",
+      "type": "code",
+      "uri": "http://fhir.health.gov.il/cs/practitioner-education-type-moh"
+    }
+  ],
+  "count": 107
+}

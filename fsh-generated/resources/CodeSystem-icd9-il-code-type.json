@@ -1,0 +1,23 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "ICD9ILCodeType",
+  "id": "icd9-il-code-type",
+  "title": "ICD9IL type codes",
+  "description": "Codes for ICD9IL-types - Diagnosis or Procedure",
+  "version": "0.7.0",
+  "url": "http://fhir.health.gov.il/cs/icd9il-code-types",
+  "concept": [
+    {
+      "code": "procedure",
+      "display": "Procedure"
+    },
+    {
+      "code": "diagnosis",
+      "display": "Diagnosis"
+    }
+  ],
+  "language": "en-US",
+  "count": 2
+}

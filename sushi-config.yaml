@@ -1,0 +1,42 @@
+# ╭─────────────────────────────────ImplementationGuide-fish.json──────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see:                                                                    │
+# │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: ILCore
+canonical: http://fhir.health.gov.il/ImplementationGuide/attempt1
+version: 0.6.0
+name: ILCoreImplementationGuide
+title: IL Core Implementation Guide
+status: draft
+publisher: Kippi Bordowitz
+contact:
+  - name: Kippi Bordowitz
+    telecom:
+      - system: email
+        value: amos@outburn.co.il
+description: Implementation guide for Israel Core FHIR
+license: CC0-1.0
+fhirVersion: 4.0.1
+parameters:
+  apply-publisher: true
+  apply-contact: true
+  show-inherited-invariants: false
+copyrightYear: 2020+
+releaseLabel: ci-build
+dependencies:
+  hl7.fhir.us.core:
+    uri: http://hl7.org/fhir/us/core/ImplementationGuide/ig
+    version: 4.1.0
+
+
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  IG Home: index.html
+  Table of Contents: toc.html
+  Artifacts Summary: artifacts.html
+  Other Resources:
+    "FHIR Spec ": new-tab {{site.data.fhir.path}}index.html

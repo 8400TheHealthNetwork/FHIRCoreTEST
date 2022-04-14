@@ -1,0 +1,111 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "il-core-allergy-intolerance",
+  "language": "he-IL",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Summary"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance",
+  "version": "0.7.0",
+  "name": "ILCoreAllergyIntolerance",
+  "title": "ILCore AllergyIntolerance Profile",
+  "status": "draft",
+  "date": "2021-05-02",
+  "publisher": "Israeli Ministry of Health",
+  "description": "Proposed constraints and extensions on the AllergyIntolerance Resource",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "AllergyIntolerance",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "AllergyIntolerance",
+        "path": "AllergyIntolerance",
+        "short": "ILCore AllergyIntolerance Profile",
+        "definition": "Definitions for the profile-AllergyIntolerance resource profile.",
+        "mustSupport": true
+      },
+      {
+        "id": "AllergyIntolerance.patient",
+        "path": "AllergyIntolerance.patient",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "AllergyIntolerance.encounter",
+        "path": "AllergyIntolerance.encounter",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-encounter"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "AllergyIntolerance.recorder",
+        "path": "AllergyIntolerance.recorder",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-patient",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-related-person"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "AllergyIntolerance.asserter",
+        "path": "AllergyIntolerance.asserter",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-patient",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-related-person",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

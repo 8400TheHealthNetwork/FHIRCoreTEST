@@ -1,0 +1,139 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "il-core-medication",
+  "language": "he-IL",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Medications"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "business"
+    }
+  ],
+  "url": "http://fhir.health.gov.il/StructureDefinition/il-core-medication",
+  "version": "0.7.0",
+  "name": "ILCoreMedication",
+  "title": "ILCore Medication Profile",
+  "status": "draft",
+  "date": "2021-05-02",
+  "publisher": "Israeli Ministry of Health",
+  "description": "Proposed constraints and extensions on the Medication Resource",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "script10.6",
+      "uri": "http://ncpdp.org/SCRIPT10_6",
+      "name": "Mapping to NCPDP SCRIPT 10.6"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Medication",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Medication",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Medication",
+        "path": "Medication",
+        "short": "ILCore Medication Profile",
+        "definition": "Definitions for the profile-Medication resource profile.",
+        "mustSupport": true
+      },
+      {
+        "id": "Medication.code.coding",
+        "path": "Medication.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Medication.code.coding:snomed",
+        "path": "Medication.code.coding",
+        "sliceName": "snomed",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Medication.code.coding:snomed.system",
+        "path": "Medication.code.coding.system",
+        "min": 1,
+        "fixedUri": "http://snomed.info/sct"
+      },
+      {
+        "id": "Medication.code.coding:snomed.code",
+        "path": "Medication.code.coding.code",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/medication-codes"
+        }
+      },
+      {
+        "id": "Medication.code.coding:yarpa",
+        "path": "Medication.code.coding",
+        "sliceName": "yarpa",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Medication.code.coding:yarpa.system",
+        "path": "Medication.code.coding.system",
+        "min": 1,
+        "fixedUri": "http://yarpa.co.il/catalog"
+      },
+      {
+        "id": "Medication.code.coding:yarpa.code",
+        "path": "Medication.code.coding.code",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.health.gov.il/ValueSet/yarpa-medication-code"
+        }
+      },
+      {
+        "id": "Medication.code.coding:yarpa.display",
+        "path": "Medication.code.coding.display",
+        "fixedString": "YARPA medication IDs"
+      },
+      {
+        "id": "Medication.ingredient.itemReference",
+        "path": "Medication.ingredient.itemReference",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Substance",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-medication"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

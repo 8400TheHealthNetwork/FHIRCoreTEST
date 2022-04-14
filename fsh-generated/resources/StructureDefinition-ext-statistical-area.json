@@ -1,0 +1,83 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ext-statistical-area",
+  "language": "he-IL",
+  "url": "http://fhir.health.gov.il/StructureDefinition/ext-statistical-area",
+  "version": "0.7.0",
+  "name": "StatisticalArea",
+  "title": "Statistical Area",
+  "status": "draft",
+  "description": "Extension: Statistical Area",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "fff"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Statistical Area",
+        "definition": "Extension: Statistical Area"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.health.gov.il/StructureDefinition/ext-statistical-area"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      },
+      {
+        "id": "Extension.valueIdentifier",
+        "path": "Extension.valueIdentifier",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.valueIdentifier.system",
+        "path": "Extension.valueIdentifier.system",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://fhir.health.gov.il/ValueSet/statistical-area-uri"
+        }
+      }
+    ]
+  }
+}
