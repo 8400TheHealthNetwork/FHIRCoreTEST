@@ -1,0 +1,205 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "il-core-observation",
+  "language": "he-IL",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "http://fhir.health.gov.il/StructureDefinition/il-core-observation",
+  "version": "0.7.0",
+  "name": "ILCoreObservation",
+  "title": "ILCore Observation Profile",
+  "status": "draft",
+  "date": "2021-05-02",
+  "publisher": "Israeli Ministry of Health",
+  "description": "Proposed constraints and extensions on the Observation Resource",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "sct-concept",
+      "uri": "http://snomed.info/conceptdomain",
+      "name": "SNOMED CT Concept Domain Binding"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "sct-attr",
+      "uri": "http://snomed.org/attributebinding",
+      "name": "SNOMED CT Attribute Binding"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation",
+        "short": "ILCore Observation Profile",
+        "definition": "Definitions for the profile-Observation resource profile.",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.basedOn",
+        "path": "Observation.basedOn",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/CarePlan",
+              "http://hl7.org/fhir/StructureDefinition/DeviceRequest",
+              "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-medication-request",
+              "http://hl7.org/fhir/StructureDefinition/NutritionOrder",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-service-request"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.partOf",
+        "path": "Observation.partOf",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/MedicationAdministration",
+              "http://hl7.org/fhir/StructureDefinition/MedicationDispense",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-procedure",
+              "http://hl7.org/fhir/StructureDefinition/Immunization",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-imaging-study"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-patient",
+              "http://hl7.org/fhir/StructureDefinition/Group",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-device",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-location"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.encounter",
+        "path": "Observation.encounter",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-encounter"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-organization",
+              "http://hl7.org/fhir/StructureDefinition/CareTeam",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-patient",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-related-person"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.specimen",
+        "path": "Observation.specimen",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-specimen"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.device",
+        "path": "Observation.device",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-device",
+              "http://hl7.org/fhir/StructureDefinition/DeviceMetric"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.hasMember",
+        "path": "Observation.hasMember",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-observation",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-questionnaire-response",
+              "http://hl7.org/fhir/StructureDefinition/MolecularSequence"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.derivedFrom",
+        "path": "Observation.derivedFrom",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/DocumentReference",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-imaging-study",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-media",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-questionnaire-response",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-observation",
+              "http://hl7.org/fhir/StructureDefinition/MolecularSequence"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

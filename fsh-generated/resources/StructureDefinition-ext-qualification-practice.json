@@ -1,0 +1,59 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ext-qualification-practice",
+  "language": "he-IL",
+  "url": "http://fhir.health.gov.il/StructureDefinition/ext-qualification-practice",
+  "version": "0.7.0",
+  "name": "QualificationPractice",
+  "title": "Qualification Practice",
+  "status": "draft",
+  "description": "Extension: Qualification Practice",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Practitioner.qualification"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Qualification Practice",
+        "definition": "Extension: Qualification Practice"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.health.gov.il/StructureDefinition/ext-qualification-practice"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      }
+    ]
+  }
+}

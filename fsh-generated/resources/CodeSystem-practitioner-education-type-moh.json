@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "PractitionerEducationTypeMoh",
+  "id": "practitioner-education-type-moh",
+  "title": "Ministry of Health practitioner-education-type codes",
+  "description": "Codes for practitioner-education-types according to Israeli MoH",
+  "version": "0.7.0",
+  "url": "http://fhir.health.gov.il/cs/practitioner-education-type-moh",
+  "concept": [
+    {
+      "code": "1",
+      "display": "לימודים אקדמאים"
+    },
+    {
+      "code": "2",
+      "display": "קורס מוכר"
+    },
+    {
+      "code": "3",
+      "display": "קורס על בסיסי"
+    },
+    {
+      "code": "4",
+      "display": "קורס למקצוע"
+    },
+    {
+      "code": "-999",
+      "display": "לא ידוע"
+    }
+  ],
+  "language": "he-IL",
+  "count": 5
+}
