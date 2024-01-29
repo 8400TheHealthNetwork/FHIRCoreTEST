@@ -15,6 +15,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: NPM Install fsh-sushi
+      run: |
+        npm install -g fsh-sushi
+        
     - name: Setup Ruby
       uses: actions/setup-ruby@v1
       with:
@@ -22,8 +26,7 @@ jobs:
 
     - name: Install Jekyll and dependencies
       run: |
-        gem install bundler
-        bundle install
+        gem install jekyll bundler
 
     - name: Download Publisher
       run: |
