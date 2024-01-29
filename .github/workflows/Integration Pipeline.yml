@@ -22,7 +22,7 @@ jobs:
 
     - name: Install Jekyll and dependencies
       run: |
-        gem installer bundler
+        gem install bundler
         bundle install
 
     - name: Download Publisher
