@@ -36,6 +36,5 @@ jobs:
     - name: Build Site
       run: |
         chmod +x ./ILCore/_genonce.sh
-        ls ./ILCore
-        ls ./ILCore/input-cache
-        ./ILCore/_genonce.sh
+        cd ILCore
+        ./_genonce.sh
