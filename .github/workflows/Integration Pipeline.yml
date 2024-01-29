@@ -35,4 +35,5 @@ jobs:
 
     - name: Build Site
       run: |
+        chmod +x /ILCore/_genonce.sh
         ./ILCore/_genonce.sh
