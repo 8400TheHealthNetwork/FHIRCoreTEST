@@ -34,7 +34,7 @@ Description: "Codes for cities in Israel"
 * #35 "גדות" "GADOT"			
 * #36 "שדה דוד" "SEDE DAWID"			
 * #37 "איתן" "ETAN"			
-* #38 "כרי דשא             " "NULL"			
+* #38 "כרי דשא" "NULL"			
 * #39 "גפן" "GEFEN"			
 * #41 "אליכין" "ELYAKHIN"			
 * #43 "מטולה" "METULA"			
@@ -43,7 +43,7 @@ Description: "Codes for cities in Israel"
 * #47 "כפר תבור" "KEFAR TAVOR"			
 * #48 "מנחמיה" "MENAHEMYA"			
 * #49 "אילניה" "ILANIYYA"			
-* #50 "גבעת עדה            " "GIV'AT ADA"			
+* #50 "גבעת עדה" "GIV'AT ADA"			
 * #52 "לוזית" "LUZIT"			
 * #53 "עתלית" "ATLIT"			
 * #55 "נוגה" "NOGAH"			
@@ -133,7 +133,7 @@ Description: "Codes for cities in Israel"
 * #184 "רמת הכובש" "RAMAT HAKOVESH"			
 * #186 "נעורים" "NE'URIM"			
 * #187 "כפר הס" "KEFAR HESS"			
-* #188 "אשדות יעקב  (מאוחד)" "ASHDOT YA'AQOV(ME'UHAD)"			
+* #188 "אשדות יעקב(מאוחד)" "ASHDOT YA'AQOV(ME'UHAD)"			
 * #189 "כפר פינס" "KEFAR PINES"			
 * #190 "כפר ויתקין" "KEFAR VITKIN"			
 * #191 "הדר עם" "HADAR AM"			
@@ -144,7 +144,7 @@ Description: "Codes for cities in Israel"
 * #196 "גיבתון" "GIBBETON"			
 * #197 "מעברות" "MA'BAROT"			
 * #198 "צופית" "ZOFIT"			
-* #199 "אשדות יעקב  (איחוד)" "ASHDOT YA'AQOV(IHUD)"			
+* #199 "אשדות יעקב(איחוד)" "ASHDOT YA'AQOV(IHUD)"			
 * #200 "בית ינאי" "BET YANNAY"			
 * #202 "בית עובד" "BET OVED"			
 * #204 "אלישיב" "ELYASHIV"			
@@ -504,7 +504,7 @@ Description: "Codes for cities in Israel"
 * #680 "אומץ" "OMEZ"			
 * #681 "גבעת שמואל" "GIV'AT SHEMU'EL"			
 * #682 "אליקים" "ELYAQIM"			
-* #683 "גבע כרמל" "GEVA  KARMEL"			
+* #683 "גבע כרמל" "GEVAKARMEL"			
 * #684 "היוגב" "HAYOGEV"			
 * #685 "בניה" "BENAYA"			
 * #686 "נווה ימין" "NEWE YAMIN"			
@@ -694,7 +694,7 @@ Description: "Codes for cities in Israel"
 * #921 "שער מנשה" "SHA'AR MENASHE"			
 * #922 "רכסים" "REKHASIM"			
 * #926 "נוה אבות" "NEWE AVOT"			
-* #932 "אבו עמרה (שבט)" "ABU  AMRE"			
+* #932 "אבו עמרה (שבט)" "ABUAMRE"			
 * #935 "אבו סריחאן (שבט)" "ABU SUREIHAN"			
 * #939 "מסעודין אל-עזאזמה" "MAS'UDIN AL-'AZAZME"			
 * #942 "סואעד (חמרייה)(שבט)" "SAWA'ID(HAMRIYYE)"			
@@ -702,7 +702,7 @@ Description: "Codes for cities in Israel"
 * #948 "חוג'ייראת (ד'הרה)" "HUJEIRAT (DAHRA)"			
 * #956 "הוזייל (שבט)" "HUZAYYEL"			
 * #957 "עוקבי (בנו עוקבה)" "UQBI (BANU UQBA)"			
-* #958 "אבו עבדון (שבט)" "ABU  ABDUN"			
+* #958 "אבו עבדון (שבט)" "ABUABDUN"			
 * #959 "אפיניש (שבט)" "AFEINISH"			
 * #960 "אסד (שבט)" "ASAD"			
 * #961 "אבו רוקייק (שבט)" "ABU RUQAYYEQ"			
@@ -732,7 +732,7 @@ Description: "Codes for cities in Israel"
 * #1031 "שדרות" "SEDEROT"			
 * #1034 "קרית מלאכי" "QIRYAT MAL'AKHI"			
 * #1041 "נצאצרה (שבט)" "NASASRA"			
-* #1042 "אבו עמאר (שבט)" "ABU  AMMAR"			
+* #1042 "אבו עמאר (שבט)" "ABUAMMAR"			
 * #1043 "גיזו" "GIZO"			
 * #1044 "יעף" "YE'AF"			
 * #1045 "שתולה" "SHETULA"			
@@ -776,7 +776,7 @@ Description: "Codes for cities in Israel"
 * #1103 "גני הדר" "GANNE HADAR"			
 * #1104 "פוריה - כפר עבודה" "PORIYYA-KEFAR AVODA"			
 * #1105 "פוריה - נווה עובד" "PORIYYA-NEWE OVED"			
-* #1106 "שערי אברהם          " "NULL"			
+* #1106 "שערי אברהם " "NULL"			
 * #1108 "אומן" "OMEN"			
 * #1110 "חבר" "HEVER"			
 * #1111 "צופיה" "ZOFIYYA"			
@@ -868,7 +868,7 @@ Description: "Codes for cities in Israel"
 * #1212 "עמוקה" "AMUQQA"			
 * #1213 "צבעון" "ZIV'ON"			
 * #1214 "טפחות" "TEFAHOT"			
-* #1217 "מחנה יבור           " "MAHANE YAVOR"			
+* #1217 "מחנה יבור" "MAHANE YAVOR"			
 * #1219 "גורנות הגליל" "GORNOT HAGALIL"			
 * #1220 "אבירים" "ABBIRIM"			
 * #1221 "צורית" "ZURIT"			
@@ -941,12 +941,12 @@ Description: "Codes for cities in Israel"
 * #1295 "יאנוח-ג'ת" "YANUH-JAT"			
 * #1296 "כסרא-סמיע" "KISRA-SUMEI"			
 * #1297 "כפר חנניה" "KEFAR HANANYA"			
-* #1298 "אתגר                " "NULL"			
-* #1299 "שעורים              " "NULL"			
+* #1298 "אתגר" "NULL"			
+* #1299 "שעורים " "NULL"			
 * #1303 "חורה" "HURA"			
 * #1304 "שוהם" "SHOHAM"			
-* #1306 "צור יגאל            " "NULL"			
-* #1308 "צורן                " "NULL"			
+* #1306 "צור יגאל" "NULL"			
+* #1308 "צורן" "NULL"			
 * #1309 "אלעד" "EL'AD"			
 * #1310 "לפיד" "LAPPID"			
 * #1311 "אבשלום" "AVSHALOM"			
@@ -965,7 +965,7 @@ Description: "Codes for cities in Israel"
 * #1325 "כפר זוהרים" "KEFAR ZOHARIM"			
 * #1326 "בסמ\"ה" "BASMA"			
 * #1327 "מעלה עירון" "MA'ALE IRON"			
-* #1329 "יתיר                " "YATTIR"			
+* #1329 "יתיר" "YATTIR"			
 * #1330 "אחוזת ברק" "AHUZZAT BARAQ"			
 * #1331 "כמאנה" "KAMANE"			
 * #1332 "חוסנייה" "HUSSNIYYA"			
@@ -990,7 +990,7 @@ Description: "Codes for cities in Israel"
 * #1359 "אל סייד" "AL SAYYID"			
 * #1360 "מולדה" "MOLADA*"			
 * #1361 "בת חן" "BAT HEN"			
-* #1362 "גבעות עדן           " "NULL"			
+* #1362 "גבעות עדן" "NULL"			
 * #1363 "בני נצרים" "BNE NETSARIM"			
 * #1364 "שלומית" "SHLOMIT"			
 * #1365 "אליאב" "ELIAV"			
@@ -1002,14 +1002,14 @@ Description: "Codes for cities in Israel"
 * #1371 "גני טל" "GANNE TAL"			
 * #1372 "נצר חזני" "NEZER HAZZANI"			
 * #1373 "שלווה במדבר" "SHALVA BAMIDBAR"			
-* #1374 "כרמי קטיף           " "NULL"			
+* #1374 "כרמי קטיף" "NULL"			
 * #1375 "אבו תלול" "ABU TULUL"			
 * #1376 "באר גנים" "BE'ER GANNIM"			
 * #1377 "שבי דרום" "SHAVE DAROM"			
-* #1378 "שיזף                " "NULL"			
-* #1401 "בת חצור             " ""			
-* #1402 "חצרות חולדה         " "NULL"			
-* #1409 "חצר בארותיים        " "NULL"			
+* #1378 "שיזף" "NULL"			
+* #1401 "בת חצור" ""			
+* #1402 "חצרות חולדה" "NULL"			
+* #1409 "חצר בארותיים" "NULL"			
 * #1411 "מחנה הילה" "MAHANE HILLA"			
 * #1412 "מחנה תל נוף" "MAHANE TEL NOF"			
 * #1413 "מחנה יהודית" "MAHANE YEHUDIT"			
@@ -1206,13 +1206,13 @@ Description: "Codes for cities in Israel"
 * #1963 "גאון הירדן מ\"א 3" "NULL"			
 * #1964 "גולן תיכון מ\"א 71" "NULL"			
 * #1966 "גולן דרומי מ\"א 71" "NULL"			
-* #1970 "נפת ג'נין  מ\"א 72" "NULL"			
-* #1971 "נפת ג'נין  " "NULL"			
+* #1970 "נפת ג'ניןמ\"א 72" "NULL"			
+* #1971 "נפת ג'נין" "NULL"			
 * #1972 "נפת שכם מ\"א 72" "NULL"			
 * #1973 "נפת שכם" "NULL"			
-* #1974 "נפת טול כרם  מ\"א 72" "NULL"			
+* #1974 "נפת טול כרםמ\"א 72" "NULL"			
 * #1975 "נפת טול כרם" "NULL"			
-* #1976 "נפת ראמאללה מ\"א  73" "NULL"			
+* #1976 "נפת ראמאללה מ\"א73" "NULL"			
 * #1977 "נפת ראמאללה " "NULL"			
 * #1978 "נפת ירדן מ\"א 74" "NULL"			
 * #1979 "נפת ירדן מ\"א 75" "NULL"			
@@ -1243,7 +1243,7 @@ Description: "Codes for cities in Israel"
 * #2026 "ירדנה" "YARDENA"			
 * #2029 "מדרך עוז" "MIDRAKH OZ"			
 * #2030 "מנוחה" "MENUHA"			
-* #2032 "נווה אפעל           " "NEWE EF'AL"			
+* #2032 "נווה אפעל" "NEWE EF'AL"			
 * #2033 "בית חלקיה" "BET HILQIYYA"			
 * #2034 "חצור הגלילית" "HAZOR HAGELILIT"			
 * #2035 "עדנים" "ADANIM"			
@@ -1291,7 +1291,7 @@ Description: "Codes for cities in Israel"
 * #2742 "זבארגה (שבט)" "ZABARGA"			
 * #2800 "קרית שמונה" "QIRYAT SHEMONA"			
 * #3000 "ירושלים" "JERUSALEM"			
-* #3400 "חברון               " "NULL"			
+* #3400 "חברון" "NULL"			
 * #3488 "כפר עציון" "KEFAR EZYON"			
 * #3555 "נתיב הגדוד" "NETIV HAGEDUD"			
 * #3556 "אלמוג" "ALMOG"			
@@ -1411,7 +1411,7 @@ Description: "Codes for cities in Israel"
 * #3788 "טלמון" "TALMON"			
 * #3790 "נופים" "NOFIM"			
 * #3791 "צופים" "ZUFIM"			
-* #3792 "עופרים              " "NULL"			
+* #3792 "עופרים " "NULL"			
 * #3793 "אבני חפץ" "AVNE HEFEZ"			
 * #3794 "בת עין" "BAT AYIN"			
 * #3795 "רבבה" "REVAVA"			
@@ -1420,7 +1420,7 @@ Description: "Codes for cities in Israel"
 * #3822 "רחלים" "REHELIM"			
 * #3823 "גני מודיעין" "GANNE MODI'IN"			
 * #3824 "עמיחי" "Amihai"			
-* #3825 "מבואות יריחו        " "NULL"			
+* #3825 "מבואות יריחו" "NULL"			
 * #3826 "שער שומרון" "NULL"			
 * #4000 "חיפה" "HAIFA"			
 * #4001 "בוקעאתא" "BUQ'ATA"			
@@ -1446,8 +1446,8 @@ Description: "Codes for cities in Israel"
 * #4025 "קדמת צבי" "QIDMAT ZEVI"			
 * #4026 "חד-נס" "HAD-NES"			
 * #4028 "כנף" "KANAF"			
-* #4029 "רמת טראמפ           " "NULL"			
-* #4035 "נמרוד               " "NULL"			
+* #4029 "רמת טראמפ" "NULL"			
+* #4035 "נמרוד" "NULL"			
 * #4100 "קצרין" "QAZRIN"			
 * #4101 "מרום גולן" "MEROM GOLAN"			
 * #4201 "מג'דל שמס" "MAJDAL SHAMS"			
@@ -1504,302 +1504,302 @@ Description: "Codes for cities in Israel"
 * #9800 "בנימינה-גבעת עדה" "BINYAMINA-GIV'AT ADA"			
 * #9999 "ישוב לא ידוע" "UNKNOWN"			
 * #5 "יזרעם" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #12 "סדום" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #40 "מוצא תחתית" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #75 "נחלת יהודה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #180 "כפר אז\"ר" "KEFAR AZAR"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #461 "מחנה ישראל" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #474 "אבתאן" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #476 "אם אל גנם" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #479 "בית גמאל" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #484 "גדידה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #500 "יאנוח" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #503 "מאקורה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #506 "כסרא" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #513 "כפר סמיע" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #519 "מכר" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #639 "ברטעה (ישראל)" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #640 "זלפה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #641 "מרגה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #642 "מצמץ" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #643 "מעאויה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #644 "סאלם" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #646 "עארה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #647 "ביר א סכה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #653 "ימא" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #657 "עין א סהלה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #781 "גני יהודה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #883 "רמת פנקס" "RAMAT PINKAS"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #931 "אבו בלאל" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #934 "ביאדה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #977 "חגאגרה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #987 "טבעון" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #999 "זבידאת" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1049 "רמת אפעל" "RAMAT EF'AL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1055 "מבוא חורון" "MEVO HORON"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1062 "נווה אפרים" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1087 "חות שלם" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1118 "לוד נמל תעופה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1120 "אוהלו" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1131 "גאולי תימן שכון" "GE'ULE TEMAN"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1135 "בכורה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1159 "צלמון" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1168 "שאבט" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1193 "עמור" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1216 "מחנה שגב" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1218 "מחנה גבעת חנניה" ""			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1250 "מעוף" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1269 "יעלון" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1270 "מעני אבו חאמד" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1273 "מכבים-רעות" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1277 "נחל אמתי" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1328 "סנסנה" "SANSANA"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1403 "חצרות חפר" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1404 "חצרות יסף" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1405 "חצרות כ\"ח" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #1408 "חצרות כרמל" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #2037 "שיח בריכ" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3064 "בית דגן" "BET DAGAN"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3098 "ברטעה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3103 "בתיר" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3416 "טירה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3498 "כרמל" "KARMEL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3553 "מרכה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3580 "גבעון" "GIV'ON"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3642 "חומש" "HOMESH"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3701 "עראבה" "ARRABE"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3711 "שא-נור" "SA-NUR"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3714 "בית אל ב" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3716 "נחל עירית" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3718 "נח\"ל אלישע" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3721 "נחל דורן" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3728 "נחל גנת" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3729 "כדים" "KADDIM"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3753 "נחל עין חגלה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3755 "נחל צורף" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3757 "נחל בתרונות" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3758 "גנים" "GANNIM"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3783 "נחל גבעות" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3800 "ראמאללה" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3844 "ראמה" "RAME"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3917 "תענך" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #3919 "תקוע" "TEQOA"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #4023 "נח\"ל נמרוד" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #4444 "קרית שמואל" "NULL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5405 "כפר דרום" "KEFAR DAROM"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5407 "מורג" "MORAG"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5408 "נצרים" "NEZARIM"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5410 "נצר חזני" "NEZER HAZZANI"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5423 "קטיף" "QATIF"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5424 "גני טל" "GANNE TAL"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5425 "בני עצמון" "BENE AZMON"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5426 "ניסנית" "NISANIT"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5427 "נווה דקלים" "NEWE DEQALIM"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5428 "אלי סיני" "ELE SINAY"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5429 "גדיד" "GADID"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5431 "גן אור" "GAN OR"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5432 "בדולח" "BEDOLAH"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5433 "רפיח ים" "RAFIAH YAM"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5434 "שליו" "SELAW"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5435 "דוגית" "DUGIT"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
 * #5436 "פאת שדה" "PE'AT SADE"			
-  * ^property.code =  #status
-  * ^property.valueCode =  #deprecated
+* ^property.code =#status
+* ^property.valueCode =#deprecated
