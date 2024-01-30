@@ -11,7 +11,7 @@ Description: "Codes for cities in Israel"
 * ^experimental = false
 * ^extension[0].url = $effective
 * ^extension[0].valueDate = "2023-11-28"
-
+//remove this line!!!!!!!!!!!!!!!!!!!! 30/1/24 kippi
 * #0 "לא רשום" "NOT WRITED"			
 * #7 "שחר" "SHAHAR"			
 * #10 "תירוש" "TIROSH"			
