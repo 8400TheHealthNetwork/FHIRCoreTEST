@@ -38,7 +38,7 @@ jobs:
         ./_genonce.sh
 
     - name: 'Tar files'
-      run: tar -cvf ILCore.tar /FHIRILCoreTest/ILCore/output/*
+      run: tar -cvf ILCore.tar ./ILCore/output/*
 
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v4
