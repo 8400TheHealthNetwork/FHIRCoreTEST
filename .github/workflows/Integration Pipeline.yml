@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Integration Pipeline
 
 on:
   push:
@@ -36,3 +36,12 @@ jobs:
         chmod +x ./ILCore/_genonce.sh
         cd ILCore
         ./_genonce.sh
+
+    - name: 'Tar files'
+      run: tar -cvf ILCore.tar /FHIRILCoreTest/ILCore/output/*
+
+    - name: 'Upload Artifact'
+      uses: actions/upload-artifact@v4
+      with: 
+        name: FHIRILCoreTest
+        path: ILCore.tar
